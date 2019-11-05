@@ -6,6 +6,6 @@ repository for storing info about all the learning to date
 * [Stop AWS instances](https://docs.aws.amazon.com/en_pv/cli/latest/userguide/cli-usage-shorthand.html)
   <!--- $ aws ec2 stop-instances --instance-ids i-1486157a i-1286157c i-ec3a7e87 --->
 * [Manage AWS EC2 Instances with AWS-CLI](https://docs.aws.amazon.com/en_pv/cli/latest/userguide/cli-services-ec2-instances.html)
-* [Difference between SOAP & REST API](upwork.com/hiring/development/soap-vs-rest-comparing-two-apis/)
+* [Difference between SOAP & REST API](https://www.upwork.com/hiring/development/soap-vs-rest-comparing-two-apis/)
   
 
