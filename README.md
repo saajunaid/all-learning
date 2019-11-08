@@ -8,4 +8,6 @@ repository for storing info about all the learning to date
 * [Manage AWS EC2 Instances with AWS-CLI](https://docs.aws.amazon.com/en_pv/cli/latest/userguide/cli-services-ec2-instances.html)
 * [Difference between SOAP & REST API](https://www.upwork.com/hiring/development/soap-vs-rest-comparing-two-apis/)
 * [Linux From Scratch](http://www.linuxfromscratch.org/lfs/)  
+* [Xprintidle](https://github.com/g0hl1n/xprintidle) xprintidle is a utility that queries the X server for the user's idle
+time and prints it to stdout (in milliseconds).
 
