@@ -1,4 +1,5 @@
 * [Database Ranking and Descriptions](https://db-engines.com/en/ranking) 
+* [Database Schemas and Models Samples](http://www.databaseanswers.org/data_models/)
 # Mysql 
 * Download mysql from docker hub and map port 3306 on local machine to port 3306 of Docker Container with **myqsl-test** as the name of the Container and **test** as the password of Mysql
 * https://developer.ibm.com/tutorials/docker-dev-db/
