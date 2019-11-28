@@ -8,5 +8,5 @@
 * Connect to Mysql DB using mysql cli on local machine. You need to have mysql client istalled on your local machine for this to work. 
   > junaid@linux-mint:~$ mysql -P 3306 --protocol=tcp -u root -p
 * Mysql cli Commands
-> https://gist.github.com/hofmannsven/9164408
+  > https://gist.github.com/hofmannsven/9164408
   
