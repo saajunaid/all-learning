@@ -20,4 +20,5 @@
 * Create Backup of the Database in the mysql container onto local machine
   > junaid@linux-mint:~/DataDumps$ docker exec mysql-test sh -c 'exec mysqldump customer -uroot -p"$MYSQL_ROOT_PASSWORD"' > /home/junaid/DataDumps/cust_data.sql
   
-* [Export database to CSV](https://forums.aws.amazon.com/thread.jspa?threadID=41443)
+* [Export database to CSV - RDS](https://forums.aws.amazon.com/thread.jspa?threadID=41443)
+* [Mysqldump to CSV](https://stackoverflow.com/questions/21253704/how-to-save-mysql-query-output-to-excel-or-txt-file)
