@@ -2,6 +2,7 @@
 * [Database Schemas and Models Samples](http://www.databaseanswers.org/data_models/)
 # Mysql 
 * [Official Mysql Docker hub location and documentation](https://hub.docker.com/_/mysql/)
+
 * Download mysql from docker hub and map port 3306 on local machine to port 3306 of Docker Container with **myqsl-test** as the name of the Container and **test** as the password of Mysql
 * https://developer.ibm.com/tutorials/docker-dev-db/
 * https://medium.com/@guilhermecoradini/how-to-crete-a-mysql-docker-container-exposing-it-to-mysql-workbench-3f78ea4a5455
@@ -10,7 +11,10 @@
   > junaid@linux-mint:~$ mysql -P 3306 --protocol=tcp -u root -p
 * Mysql cli Commands
   > https://gist.github.com/hofmannsven/9164408
+
+### Backup & Export
+
 * Create Backup of the Database in the mysql container onto local machine
   > junaid@linux-mint:~/DataDumps$ docker exec mysql-test sh -c 'exec mysqldump customer -uroot -p"$MYSQL_ROOT_PASSWORD"' > /home/junaid/DataDumps/cust_data.sql
-
   
+* [Export database to CSV](https://forums.aws.amazon.com/thread.jspa?threadID=41443)
