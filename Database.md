@@ -7,8 +7,11 @@
 * https://developer.ibm.com/tutorials/docker-dev-db/
 * https://medium.com/@guilhermecoradini/how-to-crete-a-mysql-docker-container-exposing-it-to-mysql-workbench-3f78ea4a5455
   > docker run -p 3306:3306 --name mysql-test -e MYSQL_ROOT_PASSWORD=test -d mysql
-* Connect to Mysql DB using mysql cli on local machine. You need to have mysql client istalled on your local machine for this to work. 
+* Connect to Mysql DB using mysql cli on local machine. You need to have mysql client istalled on your local machine for this to work.
   > junaid@linux-mint:~$ mysql -P 3306 --protocol=tcp -u root -p
+* Or you can connect using mysql client running in another container as described in official Mysql Dockerhub documentation.
+  > $ docker run -it --network some-network --rm mysql mysql -hsome-mysql -uexample-user -p
+  
 * Mysql cli Commands
   > https://gist.github.com/hofmannsven/9164408
 
