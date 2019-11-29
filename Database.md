@@ -12,7 +12,7 @@
 * Mysql cli Commands
   > https://gist.github.com/hofmannsven/9164408
 
-### Backup & Export
+#### Backup & Export
 
 * Create Backup of the Database in the mysql container onto local machine
   > junaid@linux-mint:~/DataDumps$ docker exec mysql-test sh -c 'exec mysqldump customer -uroot -p"$MYSQL_ROOT_PASSWORD"' > /home/junaid/DataDumps/cust_data.sql
