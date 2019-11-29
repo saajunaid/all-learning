@@ -3,7 +3,7 @@
 # Mysql 
 * [Official Mysql Docker hub location and documentation](https://hub.docker.com/_/mysql/)
 
-* Download mysql from docker hub and map port 3306 on local machine to port 3306 of Docker Container with **myqsl-test** as the name of the Container and **test** as the password of Mysql
+* Download mysql from docker hub and map port 3306 on local machine to port 3306 of Docker Container with **myqsl-test** as the name of the Container and **test** as the password of Mysql, refer to websites below and the command is below.
 * https://developer.ibm.com/tutorials/docker-dev-db/
 * https://medium.com/@guilhermecoradini/how-to-crete-a-mysql-docker-container-exposing-it-to-mysql-workbench-3f78ea4a5455
   > docker run -p 3306:3306 --name mysql-test -e MYSQL_ROOT_PASSWORD=test -d mysql
