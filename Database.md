@@ -24,3 +24,4 @@
 * [Mysqldump to CSV](https://stackoverflow.com/questions/21253704/how-to-save-mysql-query-output-to-excel-or-txt-file)
 * [Backup using Docker Hub Container custom made for S3 Backup](https://hub.docker.com/r/schickling/mysql-backup-s3)
 * [Another Backup Container](https://hub.docker.com/r/databack/mysql-backup)
+* [Restore datadump from host to Docker Container and Backup datadump from host to Docker Container](https://gist.github.com/spalladino/6d981f7b33f6e0afe6bb)
